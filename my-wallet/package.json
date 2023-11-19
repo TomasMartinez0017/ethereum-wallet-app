@@ -1,0 +1,21 @@
+{
+  "name": "my-wallet",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "ethers": "^6.8.1",
+    "solid-js": "^1.8.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^4.0.0",
+    "vite-plugin-solid": "^2.7.2"
+  }
+}
