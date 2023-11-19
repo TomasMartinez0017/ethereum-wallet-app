@@ -17,7 +17,8 @@ function App() {
   const [etherscanLink, setEtherscanLink] = createSignal('');
 
   const provider = new JsonRpcProvider(
-    //This link is from my Alchemy account.
+    // This link is from my Alchemy account.
+    // Change it with your account as explained in the README
     'https://eth-sepolia.g.alchemy.com/v2/_G7OFTzhrUX6QCZRFCvlP8XMIhHaYYOX'
   );
   const key = localStorage.getItem('encryptedPrivateKey');
