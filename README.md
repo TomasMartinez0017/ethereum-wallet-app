@@ -1,1 +1,1 @@
-# ethereum-wallet-app
+# Basic Ethereum Wallet App
